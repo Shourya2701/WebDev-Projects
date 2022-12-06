@@ -5,7 +5,7 @@ import './index.css';
 
 const Navbar = () => {
     const [click,setClick] = useState(false);
-
+    
     const handleClick = () => setClick(!click);
 
   return (
